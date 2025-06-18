@@ -8,6 +8,8 @@ import Image from "next/image"
 import Link from "next/link"
 import MuxPlayer from "@mux/mux-player-react"
 import { useState, useEffect, useRef } from "react"
+import ContactButton from "./app/_components/contact-button"
+
 
 const LinkedinIcon = ({ className }: { className?: string }) => (
   <svg className={className} fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -563,11 +565,14 @@ export default function Component() {
                     It's time to get what you deserve, and build something bigger, together.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a href="mailto:Info@stakeholdersvr.com" rel="noopener noreferrer">
+                  <a className="hidden" href="mailto:Info@stakeholdersvr.com" rel="noopener noreferrer">
                     <Button size="lg" className="bg-black hover:bg-black/80 text-lg px-8 py-3 rounded-full">
                       Schedule a Consultation <ArrowRight className="ml-2 h-5 w-5" />
                     </Button>
 </a>
+     <ContactButton variant="default" size="lg" className="bg-black hover:bg-black/80 text-lg px-8 py-3 rounded-full">
+          Schedule a Consultation <ArrowRight className="ml-2 h-5 w-5" />
+          </ContactButton>
                   </div>
                   <p className="text-sm mt-6 text-gray-500">
                     Confidential discussions. No obligations. Just possibilities.
