@@ -63,7 +63,7 @@ export async function submitContact(prevState: any, formData: FormData) {
 
     return {
       success: true,
-      message: "Contact information submitted successfully!",
+      message: "Thank you. We will be in touch shortly!",
     }
   } catch (error) {
     console.error("Error submitting form:", error)
