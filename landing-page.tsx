@@ -400,6 +400,28 @@ export default function Component() {
                 <CardContent className="p-8">
                   <div className="text-center">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
+                                                              <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
+                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1647443575241-wNb4FD4j3ifyJaLMb11nuGDVNKKJnb.jpeg"
+                            alt="Lino Maldonado"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Lino Maldonado</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/lino-maldonado-9160716/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div>
+                      </div>
+                                        
                       <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
@@ -463,28 +485,7 @@ export default function Component() {
                           </Link>
                         </div>
                       </div>
-                      <div className="flex flex-col items-center">
-                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
-                          <Image
-                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1647443575241-wNb4FD4j3ifyJaLMb11nuGDVNKKJnb.jpeg"
-                            alt="Lino Maldonado"
-                            width={160}
-                            height={160}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                        <div className="flex items-center space-x-2">
-                          <h3 className="text-lg font-semibold text-gray-900">Lino Maldonado</h3>
-                          <Link
-                            href="https://www.linkedin.com/in/lino-maldonado-9160716/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="flex flex-col items-center">
+                                 <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
                             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743986849056-0yE6xybFlVs2yxDhe2TUbY9yHdjECH.jpeg"
@@ -500,7 +501,7 @@ export default function Component() {
                             <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
                           </Link>
                         </div>
-                      </div>
+                      </div>  
                     </div>
                     <p className="text-gray-600">
                       Meet our experienced leadership team with proven track records in vacation rental management,
