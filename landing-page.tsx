@@ -54,7 +54,7 @@ function VideoCarousel() {
         objectPosition: "center",
         backgroundColor: "white",
         width: "100%",
-        height: "150%",
+        height: "60vw",
       }}
     />
   )
@@ -403,6 +403,69 @@ export default function Component() {
                       <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
+                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1643228447064-AMksqvgAE9qksAK0pJgd5qvcHIHb4f.jpeg"
+                            alt="Brandon Ezra"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Brandon Ezra</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/brandon-ezra-39298a8/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div>
+                      </div>
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
+                            src="/images/brady-stump.jpg"
+                            alt="Brady Stump"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Brady Stump</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/brady-stump/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div>
+                      </div>
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
+                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1704990223528-m0TkaYl9lUm34bc7rieWUOtmxuwmHi.jpeg"
+                            alt="Joe Fraiman"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Joe Fraiman</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/joe-fraiman-75628a20/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div>
+                      </div>
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
                             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1647443575241-wNb4FD4j3ifyJaLMb11nuGDVNKKJnb.jpeg"
                             alt="Lino Maldonado"
                             width={160}
@@ -434,69 +497,6 @@ export default function Component() {
                         <div className="flex items-center space-x-2">
                           <h3 className="text-lg font-semibold text-gray-900">Travis Wilburn</h3>
                           <Link href="https://linkedin.com/in/travis-wilburn" target="_blank" rel="noopener noreferrer">
-                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="flex flex-col items-center">
-                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
-                          <Image
-                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1704990223528-m0TkaYl9lUm34bc7rieWUOtmxuwmHi.jpeg"
-                            alt="Joe Fraiman"
-                            width={160}
-                            height={160}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                        <div className="flex items-center space-x-2">
-                          <h3 className="text-lg font-semibold text-gray-900">Joe Fraiman</h3>
-                          <Link
-                            href="https://www.linkedin.com/in/joe-fraiman-75628a20/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="flex flex-col items-center">
-                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
-                          <Image
-                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1643228447064-AMksqvgAE9qksAK0pJgd5qvcHIHb4f.jpeg"
-                            alt="Brandon Ezra"
-                            width={160}
-                            height={160}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                        <div className="flex items-center space-x-2">
-                          <h3 className="text-lg font-semibold text-gray-900">Brandon Ezra</h3>
-                          <Link
-                            href="https://www.linkedin.com/in/brandon-ezra-39298a8/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="flex flex-col items-center">
-                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
-                          <Image
-                            src="/placeholder.svg?height=160&width=160"
-                            alt="Brady Stump"
-                            width={160}
-                            height={160}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                        <div className="flex items-center space-x-2">
-                          <h3 className="text-lg font-semibold text-gray-900">Brady Stump</h3>
-                          <Link
-                            href="https://www.linkedin.com/in/brady-stump/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
                             <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
                           </Link>
                         </div>
@@ -598,7 +598,7 @@ export default function Component() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Logo%20Design%20Final%20SHVR%20%28Black%20Bg%29-zf1EnZ86dY5FJanhila5yf.public.blob.vercel-storage.com/Logo%20Design%20Final%20SHVR%20%28Black%20Bg%29-zf1EnZ86dY5FJiwNbfDqY0Sx9mYUH7.png"
+                src="/images/footer-logo.png"
                 alt="Stakeholders VR"
                 width={250}
                 height={75}
