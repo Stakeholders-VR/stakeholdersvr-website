@@ -563,9 +563,11 @@ export default function Component() {
                     It's time to get what you deserve, and build something bigger, together.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <a href="mailto:Info@stakeholdersvr.com" rel="noopener noreferrer">
                     <Button size="lg" className="bg-black hover:bg-black/80 text-lg px-8 py-3 rounded-full">
                       Schedule a Consultation <ArrowRight className="ml-2 h-5 w-5" />
                     </Button>
+</a>
                   </div>
                   <p className="text-sm mt-6 text-gray-500">
                     Confidential discussions. No obligations. Just possibilities.
