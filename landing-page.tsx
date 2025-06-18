@@ -255,7 +255,7 @@ export default function Component() {
                 <Card className="bg-gradient-to-br from-amber-50 to-orange-50 border-0 shadow-xl rounded-2xl overflow-hidden">
                   <CardContent className="p-0">
                     <Image
-                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/card1.jpg-CDSvn8Econp40mYdeTuOfq57qr5hh1.jpeg"
+                      src="/images/beach.jpg"
                       alt="Luxury vacation rental property at sunset"
                       width={600}
                       height={400}
@@ -402,7 +402,7 @@ export default function Component() {
               <Card className="bg-gradient-to-br from-amber-50 to-orange-50 border-0 shadow-xl rounded-2xl max-w-5xl w-full">
                 <CardContent className="p-8">
                   <div className="text-center">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
                       <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
@@ -414,7 +414,7 @@ export default function Component() {
                           />
                         </div>
                         <div className="flex items-center space-x-2">
-                          <h3 className="text-lg font-semibold text-gray-900">Lino Maldonado</h3>
+                          <h3 className="text-lg font-semibold text-gray-900">Lino Maldonado</h3><br></br>
                           <Link
                             href="https://www.linkedin.com/in/lino-maldonado-9160716/"
                             target="_blank"
@@ -422,30 +422,11 @@ export default function Component() {
                           >
                             <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
                           </Link>
-                        </div>
+                         
+                        </div>  <span className="font-italic text-gray-900 font-bolder">CEO</span>
                       </div>
 
-                      <div className="flex flex-col items-center">
-                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
-                          <Image
-                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1643228447064-AMksqvgAE9qksAK0pJgd5qvcHIHb4f.jpeg"
-                            alt="Brandon Ezra"
-                            width={160}
-                            height={160}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                        <div className="flex items-center space-x-2">
-                          <h3 className="text-lg font-semibold text-gray-900">Brandon Ezra</h3>
-                          <Link
-                            href="https://www.linkedin.com/in/brandon-ezra-39298a8/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
-                          </Link>
-                        </div>
-                      </div>
+
                       <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
@@ -465,28 +446,28 @@ export default function Component() {
                           >
                             <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
                           </Link>
-                        </div>
+                        </div> <span className="font-italic text-gray-900 font-bolder">Co-Founder</span>
                       </div>
-                      <div className="flex flex-col items-center">
+                                            <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
-                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1704990223528-m0TkaYl9lUm34bc7rieWUOtmxuwmHi.jpeg"
-                            alt="Joe Fraiman"
+                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1643228447064-AMksqvgAE9qksAK0pJgd5qvcHIHb4f.jpeg"
+                            alt="Brandon Ezra"
                             width={160}
                             height={160}
                             className="w-full h-full object-cover"
                           />
                         </div>
                         <div className="flex items-center space-x-2">
-                          <h3 className="text-lg font-semibold text-gray-900">Joe Fraiman</h3>
+                          <h3 className="text-lg font-semibold text-gray-900">Brandon Ezra</h3>
                           <Link
-                            href="https://www.linkedin.com/in/joe-fraiman-75628a20/"
+                            href="https://www.linkedin.com/in/brandon-ezra-39298a8/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
                           </Link>
-                        </div>
+                        </div> <span className="font-italic text-gray-900 font-bolder">Co-Founder</span>
                       </div>
                       <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
@@ -503,7 +484,7 @@ export default function Component() {
                           <Link href="https://linkedin.com/in/travis-wilburn" target="_blank" rel="noopener noreferrer">
                             <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
                           </Link>
-                        </div>
+                        </div> <span className="font-italic text-gray-900 font-bolder">Advisor</span>
                       </div>
                     </div>
                     <p className="text-gray-600">
@@ -525,7 +506,7 @@ export default function Component() {
                 <Card className="bg-gradient-to-br from-amber-50 to-orange-50 border-0 shadow-xl rounded-2xl overflow-hidden">
                   <CardContent className="p-0">
                     <Image
-                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/a646245d3433848f982a9dc88a352ec6af434570-2464x1641.jpg-igiaLGRL5zjnfxjI2Ohrgu6n7Oa8S4.jpeg"
+                      src="/images/cliffmanor.jpg"
                       alt="Luxury coastal vacation rental property with pool"
                       width={600}
                       height={400}
