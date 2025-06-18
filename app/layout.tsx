@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { IBM_Plex_Sans, Playfair_Display } from "next/font/google"
 import "./globals.css"
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const ibmPlexSans = IBM_Plex_Sans({
   subsets: ["latin"],
@@ -134,6 +135,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.png" sizes="any" />
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link rel="apple-touch-icon" href="/favicon.png" />
+         <GoogleAnalytics gaId="G-4L2BR9CDLZ" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -188,50 +190,6 @@ export default function RootLayout({
                     "@type": "Country",
                     name: "United States",
                   },
-                  hasOfferCatalog: {
-                    "@type": "OfferCatalog",
-                    name: "Vacation Rental Management Partnership Services",
-                    itemListElement: [
-                      {
-                        "@type": "Offer",
-                        itemOffered: {
-                          "@type": "Service",
-                          name: "Private Equity Partnership",
-                          description:
-                            "30-60% higher valuations for vacation rental management companies when selling as part of our supergroup",
-                          category: "Private Equity Investment",
-                        },
-                      },
-                      {
-                        "@type": "Offer",
-                        itemOffered: {
-                          "@type": "Service",
-                          name: "Immediate Liquidity Solutions",
-                          description: "Access to capital while maintaining operational control and brand identity",
-                          category: "Financial Services",
-                        },
-                      },
-                      {
-                        "@type": "Offer",
-                        itemOffered: {
-                          "@type": "Service",
-                          name: "Shared Services Platform",
-                          description:
-                            "HR, payroll, marketing, finance, technology, and revenue management services for vacation rental managers",
-                          category: "Business Support Services",
-                        },
-                      },
-                      {
-                        "@type": "Offer",
-                        itemOffered: {
-                          "@type": "Service",
-                          name: "Legacy Protection",
-                          description: "Maintain brand identity and team structure while accessing growth capital",
-                          category: "Business Consulting",
-                        },
-                      },
-                    ],
-                  },
                   contactPoint: [
                     {
                       "@type": "ContactPoint",
@@ -246,14 +204,6 @@ export default function RootLayout({
                       areaServed: "US",
                     },
                   ],
-                  sameAs: ["https://www.linkedin.com/company/stakeholders-vr", "https://twitter.com/StakeholdersVR"],
-                  aggregateRating: {
-                    "@type": "AggregateRating",
-                    ratingValue: "5.0",
-                    reviewCount: "1",
-                    bestRating: "5",
-                    worstRating: "1",
-                  },
                 },
                 {
                   "@type": "WebSite",
@@ -265,16 +215,6 @@ export default function RootLayout({
                   publisher: {
                     "@id": "https://stakeholdersvr.com/#organization",
                   },
-                  potentialAction: [
-                    {
-                      "@type": "SearchAction",
-                      target: {
-                        "@type": "EntryPoint",
-                        urlTemplate: "https://stakeholdersvr.com/search?q={search_term_string}",
-                      },
-                      "query-input": "required name=search_term_string",
-                    },
-                  ],
                   inLanguage: "en-US",
                 },
                 {
@@ -287,9 +227,6 @@ export default function RootLayout({
                   },
                   about: {
                     "@id": "https://stakeholdersvr.com/#organization",
-                  },
-                  primaryImageOfPage: {
-                    "@id": "https://stakeholdersvr.com/#image",
                   },
                   description:
                     "Join the elite collective of vacation rental managers. Get 30-60% higher valuations, immediate liquidity, and future upside while keeping your brand and team. Private equity partnership for top property managers.",
@@ -327,68 +264,6 @@ export default function RootLayout({
                     "Private equity partnership for vacation rental management companies offering higher valuations, immediate liquidity, and shared services while preserving brand identity and team structure.",
                   serviceType: "Private Equity Partnership",
                   category: "Business Services",
-                  audience: {
-                    "@type": "Audience",
-                    audienceType: "Vacation Rental Managers",
-                    geographicArea: {
-                      "@type": "Country",
-                      name: "United States",
-                    },
-                  },
-                  areaServed: {
-                    "@type": "Country",
-                    name: "United States",
-                  },
-                  hasOfferCatalog: {
-                    "@type": "OfferCatalog",
-                    name: "Partnership Benefits",
-                    itemListElement: [
-                      {
-                        "@type": "Offer",
-                        name: "Higher Valuations",
-                        description: "30-60% higher valuations when selling as part of the Supergroup",
-                        category: "Financial Benefits",
-                      },
-                      {
-                        "@type": "Offer",
-                        name: "Immediate Liquidity",
-                        description: "Access to capital while maintaining operational control",
-                        category: "Financial Services",
-                      },
-                      {
-                        "@type": "Offer",
-                        name: "Future Upside Participation",
-                        description: "Continued investment in business growth and collective success",
-                        category: "Investment Opportunity",
-                      },
-                      {
-                        "@type": "Offer",
-                        name: "Brand Protection",
-                        description: "Maintain brand identity and team structure",
-                        category: "Business Consulting",
-                      },
-                      {
-                        "@type": "Offer",
-                        name: "Shared Services Access",
-                        description: "HR, marketing, finance, technology, and revenue management services",
-                        category: "Business Support Services",
-                      },
-                    ],
-                  },
-                  review: {
-                    "@type": "Review",
-                    reviewRating: {
-                      "@type": "Rating",
-                      ratingValue: "5",
-                      bestRating: "5",
-                    },
-                    author: {
-                      "@type": "Organization",
-                      name: "Industry Partners",
-                    },
-                    reviewBody:
-                      "Stakeholders VR provides exceptional partnership opportunities for vacation rental managers looking to scale and access liquidity while maintaining their brand identity.",
-                  },
                 },
                 {
                   "@type": "FAQPage",
