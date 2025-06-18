@@ -76,7 +76,10 @@ export default function Component() {
               priority
             />
           </div>
-          <nav className="hidden md:flex items-center space-x-6 text-base font-medium">
+          <nav
+            className="hidden md:flex items-center space-x-6 text-base font-medium"
+            style={{ fontFamily: "var(--font-ibm-plex-sans)" }}
+          >
             <Link href="#why-join" className="text-gray-300 hover:text-amber-400 transition-colors">
               Why Join
             </Link>
@@ -400,7 +403,7 @@ export default function Component() {
                 <CardContent className="p-8">
                   <div className="text-center">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
-                                                              <div className="flex flex-col items-center">
+                      <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
                             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1647443575241-wNb4FD4j3ifyJaLMb11nuGDVNKKJnb.jpeg"
@@ -421,7 +424,7 @@ export default function Component() {
                           </Link>
                         </div>
                       </div>
-                                        
+
                       <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
@@ -485,7 +488,7 @@ export default function Component() {
                           </Link>
                         </div>
                       </div>
-                                 <div className="flex flex-col items-center">
+                      <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
                             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743986849056-0yE6xybFlVs2yxDhe2TUbY9yHdjECH.jpeg"
@@ -501,7 +504,7 @@ export default function Component() {
                             <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
                           </Link>
                         </div>
-                      </div>  
+                      </div>
                     </div>
                     <p className="text-gray-600">
                       Meet our experienced leadership team with proven track records in vacation rental management,

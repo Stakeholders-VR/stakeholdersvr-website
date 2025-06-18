@@ -1,9 +1,13 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter, Playfair_Display } from "next/font/google"
+import { IBM_Plex_Sans, Playfair_Display } from "next/font/google"
 import "./globals.css"
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
+const ibmPlexSans = IBM_Plex_Sans({
+  subsets: ["latin"],
+  variable: "--font-ibm-plex-sans",
+  weight: ["400", "500", "600", "700"],
+})
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" })
 
 export const metadata: Metadata = {
@@ -117,7 +121,6 @@ export const metadata: Metadata = {
     "msapplication-config": "/browserconfig.xml",
     "theme-color": "#10172A",
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -126,7 +129,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="en" className={`${ibmPlexSans.variable} ${playfair.variable}`}>
       <head>
         <link rel="icon" href="/favicon.png" sizes="any" />
         <link rel="icon" href="/favicon.png" type="image/png" />
