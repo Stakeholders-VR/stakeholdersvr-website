@@ -483,7 +483,7 @@ export default function Component() {
                         </div>
                         <div className="flex items-center space-x-2">
                           <h3 className="text-lg font-semibold text-gray-900">Travis Wilburn</h3>
-                          <Link href="https://linkedin.com/in/travis-wilburn" target="_blank" rel="noopener noreferrer">
+                          <Link href="https://www.linkedin.com/in/travis-wilburn-03057410/" target="_blank" rel="noopener noreferrer">
                             <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
                           </Link>
                         </div> <span className="font-italic text-gray-900 font-bolder">Advisor</span>
