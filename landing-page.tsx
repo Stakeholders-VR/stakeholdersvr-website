@@ -130,10 +130,11 @@ export default function Component() {
             <div className="max-w-4xl mx-auto text-center">
               {/* Content */}
               <div className="text-white space-y-8">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif leading-tight">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif leading-tight">Introducing the StakeholdersVR Supergroup</h1>
+                <h2 className="text-xl md:text-xl lg:text-2xl uppercase leading-tight tracking-wide">
                   Smart Managers. Higher Valuations. Bigger Future. Together.
-                </h1>
-                <p className="text-xl md:text-2xl text-gray-300 leading-relaxed max-w-3xl mx-auto">
+                </h2>
+                <p className="text-lg md:text-xl text-gray-300 leading-relaxed max-w-xl mx-auto">
                   World-Class Property Managers achieving Liquidity, Legacy, and True Partnership together.
                 </p>
 
