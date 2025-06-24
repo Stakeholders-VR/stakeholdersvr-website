@@ -426,7 +426,7 @@ export default function Component() {
                             <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
                           </Link>
                          
-                        </div>  <span className="font-italic text-gray-900 font-bolder">CEO</span>
+                        </div>  <span className="font-italic text-gray-900 font-bolder">Co-Founder</span>
                       </div>
 
 
