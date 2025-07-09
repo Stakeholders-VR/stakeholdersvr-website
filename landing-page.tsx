@@ -443,7 +443,7 @@ export default function Component() {
                         <div className="flex items-center space-x-2">
                           <h3 className="text-lg font-semibold text-gray-900">Brady Stump</h3>
                           <Link
-                            href="https://www.linkedin.com/in/brady-stump/"
+                            href="https://www.linkedin.com/in/bradystump/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
