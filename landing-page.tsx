@@ -410,7 +410,7 @@ export default function Component() {
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
                             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1647443575241-wNb4FD4j3ifyJaLMb11nuGDVNKKJnb.jpeg"
-                            alt="Lino Maldonado"
+                            alt="Lino Maldonado Linkedin Page"
                             width={160}
                             height={160}
                             className="w-full h-full object-cover"
@@ -434,7 +434,7 @@ export default function Component() {
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
                             src="/images/brady-stump.jpg"
-                            alt="Brady Stump"
+                            alt="Brady Stump Linkedin Page"
                             width={160}
                             height={160}
                             className="w-full h-full object-cover"
@@ -455,7 +455,7 @@ export default function Component() {
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
                             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1643228447064-AMksqvgAE9qksAK0pJgd5qvcHIHb4f.jpeg"
-                            alt="Brandon Ezra"
+                            alt="Brandon Ezra Linkedin Page"
                             width={160}
                             height={160}
                             className="w-full h-full object-cover"
@@ -476,7 +476,7 @@ export default function Component() {
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
                             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743986849056-0yE6xybFlVs2yxDhe2TUbY9yHdjECH.jpeg"
-                            alt="Travis Wilburn"
+                            alt="Travis Wilburn Linkedin Page"
                             width={160}
                             height={160}
                             className="w-full h-full object-cover"
