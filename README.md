@@ -1,30 +1,34 @@
-# StakeholdersVR
+# StakeholdersVR Supergroup
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+## Introducing StakeholdersVR Supergroup
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/andrew-woodards-projects/v0-stakeholders-vr)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/xNwTbxPfyrX)
+**Smart Managers. Higher Valuations. Bigger Future. Together.**
 
-## Overview
+World-Class Property Managers achieving Liquidity, Legacy, and True Partnership together.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+---
 
-## Deployment
+### What is StakeholdersVR?
 
-Your project is live at:
+A platform for property managers to connect, collaborate, and unlock greater value—together.
 
-**[https://vercel.com/andrew-woodards-projects/v0-stakeholders-vr](https://vercel.com/andrew-woodards-projects/v0-stakeholders-vr)**
+---
 
-## Build your app
+### Why Join?
 
-Continue building your app on:
+- **Smart Management:** Work with the best in the business.
+- **Higher Valuations:** Unlock new growth and liquidity.
+- **Bigger Future:** Build your legacy and form true partnerships.
 
-**[https://v0.dev/chat/projects/xNwTbxPfyrX](https://v0.dev/chat/projects/xNwTbxPfyrX)**
+---
 
-## How It Works
+## Hosting & Domain
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- **Hosted on Vercel:** The StakeholdersVR Supergroup platform is deployed and hosted using Vercel for fast, secure, and reliable performance.
+- **DNS Managed by GoDaddy:** Domain Name System (DNS) services for this project are managed through GoDaddy for streamlined domain configuration and management.
+
+---
+
+## Ready to Take the Next Step?
+
+Join the StakeholdersVR Supergroup and shape the future of property management—together.
