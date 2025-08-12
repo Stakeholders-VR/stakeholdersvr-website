@@ -258,7 +258,7 @@ export default function Component() {
                 <Card className="bg-gradient-to-br from-amber-50 to-orange-50 border-0 shadow-xl rounded-2xl overflow-hidden">
                   <CardContent className="p-0">
                     <Image
-                      src="/images/beach2.jpg"
+                      src="/images/beach4.jpg"
                       alt="Luxury vacation rental property at sunset"
                       width={600}
                       height={400}
