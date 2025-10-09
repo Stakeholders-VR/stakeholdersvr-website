@@ -432,6 +432,28 @@ export default function Component() {
                       <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
+                            src="/images/brady-stump.jpg"
+                            alt="Brady Stump Linkedin Page"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Brady Stump</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/bradystump/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div> <span className="font-italic text-gray-900 font-bolder">Co-Founder</span>
+                      </div>
+
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
                             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1643228447064-AMksqvgAE9qksAK0pJgd5qvcHIHb4f.jpeg"
                             alt="Brandon Ezra Linkedin Page"
                             width={160}
@@ -472,28 +494,6 @@ export default function Component() {
                           </Link>
                         </div>
                         <span className="font-italic text-gray-900 font-bolder">Co-Founder</span>
-                      </div>
-
-                      <div className="flex flex-col items-center">
-                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
-                          <Image
-                            src="/images/brady-stump.jpg"
-                            alt="Brady Stump Linkedin Page"
-                            width={160}
-                            height={160}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                        <div className="flex items-center space-x-2">
-                          <h3 className="text-lg font-semibold text-gray-900">Brady Stump</h3>
-                          <Link
-                            href="https://www.linkedin.com/in/bradystump/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
-                          </Link>
-                        </div> <span className="font-italic text-gray-900 font-bolder">Co-Founder</span>
                       </div>
 
                       <div className="flex flex-col items-center">
