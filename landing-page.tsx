@@ -542,7 +542,6 @@ export default function Component() {
                         </div>
                         <span className="font-italic text-gray-900 font-bolder">SVP, Business Operations & Strategy</span>
                       </div>
-
                       <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
