@@ -405,7 +405,7 @@ export default function Component() {
               <Card className="bg-gradient-to-br from-amber-50 to-orange-50 border-0 shadow-xl rounded-2xl max-w-6xl w-full">
                 <CardContent className="p-8">
                   <div className="text-center">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8 mb-8">
                       <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
@@ -429,6 +429,50 @@ export default function Component() {
                         </div>  <span className="font-italic text-gray-900 font-bolder">Co-Founder, CEO</span>
                       </div>
 
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
+                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1643228447064-AMksqvgAE9qksAK0pJgd5qvcHIHb4f.jpeg"
+                            alt="Brandon Ezra Linkedin Page"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Brandon Ezra</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/brandon-ezra-39298a8/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div> <span className="font-italic text-gray-900 font-bolder">Co-Founder</span>
+                      </div>
+
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
+                            src="/images/joe.jpg"
+                            alt="Joe Fraiman Linkedin Page"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Joe Fraiman</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/jfraiman/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div>
+                        <span className="font-italic text-gray-900 font-bolder">Co-Founder</span>
+                      </div>
 
                       <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
@@ -451,32 +495,12 @@ export default function Component() {
                           </Link>
                         </div> <span className="font-italic text-gray-900 font-bolder">Co-Founder</span>
                       </div>
-                                            <div className="flex flex-col items-center">
-                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
-                          <Image
-                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1643228447064-AMksqvgAE9qksAK0pJgd5qvcHIHb4f.jpeg"
-                            alt="Brandon Ezra Linkedin Page"
-                            width={160}
-                            height={160}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                        <div className="flex items-center space-x-2">
-                          <h3 className="text-lg font-semibold text-gray-900">Brandon Ezra</h3>
-                          <Link
-                            href="https://www.linkedin.com/in/brandon-ezra-39298a8/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
-                          </Link>
-                        </div> <span className="font-italic text-gray-900 font-bolder">Co-Founder</span>
-                      </div>
-                                            <div className="flex flex-col items-center">
+
+                      <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
                             src="/images/markus.jpg"
-                            alt="Lino Maldonado Linkedin Page"
+                            alt="Markus Nordvik Linkedin Page"
                             width={160}
                             height={160}
                             className="w-full h-full object-cover"
