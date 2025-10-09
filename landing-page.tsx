@@ -498,6 +498,123 @@ export default function Component() {
                       <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
+                            src="/images/ben.jpg"
+                            alt="Ben Lanson Linkedin Page"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Ben Lanson</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/benlanson/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div>
+                        <span className="font-italic text-gray-900 font-bolder">COO</span>
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
+                            src="/images/elizabeth.jpg"
+                            alt="Elizabeth Lott Linkedin Page"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Elizabeth Lott</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/elizabethlott/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div>
+                        <span className="font-italic text-gray-900 font-bolder">SVP, Business Operations & Strategy</span>
+                      </div>
+
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
+                            src="/images/paul.jpg"
+                            alt="Paul Boyer Linkedin Page"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Paul Boyer</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/pboyer/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div>
+                        <span className="font-italic text-gray-900 font-bolder">CFO</span>
+                      </div>
+
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
+                            src="/images/chris.jpg"
+                            alt="Chris Wheeler Linkedin Page"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Chris Wheeler</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/chriswheeler30a/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div>
+                        <span className="font-italic text-gray-900 font-bolder">CRO</span>
+                      </div>
+
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
+                            src="/images/lui.jpg"
+                            alt="Lui King Linkedin Page"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Lui King</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/lui-king/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div>
+                        <span className="font-italic text-gray-900 font-bolder">VP, Brand Success</span>
+                      </div>
+
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
                             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743986849056-0yE6xybFlVs2yxDhe2TUbY9yHdjECH.jpeg"
                             alt="Travis Wilburn Linkedin Page"
                             width={160}
@@ -513,6 +630,7 @@ export default function Component() {
                         </div> <span className="font-italic text-gray-900 font-bolder">Advisor</span>
                       </div>
                     </div>
+
                     <p className="text-gray-600">
                       Meet our experienced leadership team with proven track records in vacation rental management,
                       vacation rental technology, private equity, and business operations.
