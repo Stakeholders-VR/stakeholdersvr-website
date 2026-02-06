@@ -94,6 +94,14 @@ export default function Component() {
             <Link href="#leadership" className="text-gray-300 hover:text-amber-400 transition-colors">
               Leadership
             </Link>
+            <a
+              href="https://careers.stakeholdersvr.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-amber-400 transition-colors"
+            >
+              Careers
+            </a>
             <Link href="#contact" className="text-gray-300 hover:text-amber-400 transition-colors">
               Contact
             </Link>
@@ -767,16 +775,8 @@ export default function Component() {
                 className="h-16 w-auto"
               />
             </div>
-            <div className="flex items-center gap-4 text-sm text-gray-400 mb-4 md:mb-0">
-              <a
-                href="https://careers.stakeholdersvr.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-amber-400 transition-colors"
-              >
-                Careers
-              </a>
-              <span>© {new Date().getFullYear()} Stakeholders Vacation Rentals. All rights reserved.</span>
+            <div className="text-sm text-gray-400 mb-4 md:mb-0">
+              © {new Date().getFullYear()} Stakeholders Vacation Rentals. All rights reserved.
             </div>
           </div>
         </div>
