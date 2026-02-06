@@ -767,7 +767,7 @@ export default function Component() {
                 className="h-16 w-auto"
               />
             </div>
-            <nav className="flex items-center gap-6 mb-4 md:mb-0">
+            <div className="flex items-center gap-4 text-sm text-gray-400 mb-4 md:mb-0">
               <a
                 href="https://careers.stakeholdersvr.com/"
                 target="_blank"
@@ -776,9 +776,7 @@ export default function Component() {
               >
                 Careers
               </a>
-            </nav>
-            <div className="text-sm text-gray-400">
-              © {new Date().getFullYear()} Stakeholders Vacation Rentals. All rights reserved.
+              <span>© {new Date().getFullYear()} Stakeholders Vacation Rentals. All rights reserved.</span>
             </div>
           </div>
         </div>
