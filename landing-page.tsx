@@ -444,7 +444,7 @@ export default function Component() {
                             alt="Brady Stump Linkedin Page"
                             width={160}
                             height={160}
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-cover object-top"
                           />
                         </div>
                         <div className="flex items-center space-x-2">
@@ -510,17 +510,17 @@ export default function Component() {
                         <div className="flex flex-col items-center">
                           <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                             <Image
-                              src="/images/markus.jpg"
-                              alt="Markus Nordvik Linkedin Page"
+                              src="/images/jesse.png"
+                              alt="Jesse Hull Linkedin Page"
                               width={160}
                               height={160}
-                              className="w-full h-full object-cover"
+                              className="w-full h-full object-cover object-top"
                             />
                           </div>
                           <div className="flex items-center space-x-2">
-                            <h3 className="text-lg font-semibold text-gray-900">Markus Nordvik</h3><br></br>
+                            <h3 className="text-lg font-semibold text-gray-900">Jesse Hull</h3><br></br>
                             <Link
-                              href="https://www.linkedin.com/in/mnordvik/"
+                              href="https://www.linkedin.com/in/jessefhull/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -609,7 +609,7 @@ export default function Component() {
                             alt="Chris Wheeler Linkedin Page"
                             width={160}
                             height={160}
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-cover object-top"
                           />
                         </div>
                         <div className="flex items-center space-x-2">

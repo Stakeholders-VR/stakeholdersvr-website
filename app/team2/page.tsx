@@ -42,12 +42,10 @@ const TEAM_MEMBERS: TeamMember[] = [
     linkedinUrl: 'https://www.linkedin.com/in/jfraiman/',
   },
   {
-    name: 'Markus Nordvik',
+    name: 'Jesse Hull',
     title: 'Chief Technology Officer',
-    image: '/images/markus.jpg',
-    location: 'Based in California',
-    bio: 'Markus leads technology strategy at Stakeholders VR, drawing on more than two decades of experience scaling SaaS products - including multiple PMS platforms - and building high-performing teams. He focuses on the next wave of innovation in travel and hospitality, emphasizing integrations, automation, and analytics that improve efficiency and expand margin. Markus holds a B.S. in Symbolic Systems from Stanford University and is an alum of Y Combinator.',
-    linkedinUrl: 'https://www.linkedin.com/in/mnordvik/',
+    image: '/images/jesse.png',
+    linkedinUrl: 'https://www.linkedin.com/in/jessefhull/',
   },
   {
     name: 'Ben Lanson',
