@@ -1,0 +1,362 @@
+title,department,location,type,description
+"VP, Engineering",Engineering,"Remote (US)",Full-time,"## The Role
+
+We are seeking a strategic and execution-oriented VP of Engineering to lead the central engineering function for Stakeholders VR. This role is responsible for building and scaling a lean, high-impact engineering organization that delivers shared platforms, integrations, and data capabilities across a rapidly growing, multi-entity portfolio.
+
+The VP of Engineering will play a critical role in translating the CTO's technology strategy into executable roadmaps, scalable architecture, and reliable systems that support integration, operational leverage, and value creation in a PE-backed roll-up environment.
+
+This position requires close collaboration with executive leadership, finance, operations, and portfolio company stakeholders. The ideal candidate brings instant credibility, can operate effectively in ambiguity, and can balance architectural rigor with pragmatic delivery.
+
+## Key Competencies
+
+### Engineering Leadership & Organization Design
+
+- Build, lead, and mentor a lean, senior engineering team focused on platforms, integrations, and data.
+- Establish clear engineering operating models, decision rights, and accountability frameworks.
+- Create career paths, performance expectations, and feedback mechanisms for engineers.
+- Foster a culture of ownership, technical excellence, velocity, and disciplined execution.
+- Partner closely with Product, Data, IT Operations, Finance, and Operations leadership.
+
+### Platform, Architecture & Delivery
+
+- Translate business strategy and CTO roadmap into executable engineering plans and technical architecture.
+- Own the design and delivery of central platforms, shared services, APIs, integrations, and data pipelines.
+- Ensure systems are scalable, reliable, secure, and fit for a multi-entity operating model.
+- Implement lightweight but effective engineering processes that scale with growth.
+- Balance build vs. buy decisions with a strong bias toward leverage and reuse.
+
+### Integration & M&A Enablement
+
+- Lead technical diligence for acquisitions, assessing systems, data quality, risks, and integration pathways.
+- Define and execute post-acquisition technical integration strategies aligned with value creation plans.
+- Develop repeatable integration patterns, tooling, and standards to reduce marginal integration cost.
+- Provide architectural guidance to portfolio companies while respecting operational autonomy.
+- Drive rationalization of overlapping systems and reduction of long-term technical debt.
+
+### Data Strategy & Governance
+
+- Partner with data and analytics leaders to deliver a unified, governed data foundation.
+- Oversee engineering work related to data ingestion, modeling, master data, and identity resolution.
+- Ensure data quality, security, and consistency across systems and entities.
+- Enable BI, operational reporting, risk analysis, and acquisition intelligence through robust data pipelines.
+
+### Operational Excellence & Risk Management
+
+- Establish engineering SLAs, SLOs, and delivery metrics aligned with business outcomes.
+- Ensure strong security, reliability, and observability across platforms and integrations.
+- Implement disciplined release management, incident response, and technical risk controls.
+- Reduce portfolio-level technology risk through standards, shared infrastructure, and governance.
+
+### Executive Leadership & Communication
+
+- Serve as a trusted partner to the CTO on long-term technology vision and investment planning.
+- Clearly communicate engineering priorities, trade-offs, and progress to executive leadership.
+- Influence portfolio company leaders through credible technical guidance and structured change management.
+- Represent engineering perspectives in executive and board-level discussions when appropriate.
+
+## The Successful Applicant
+
+- 12+ years of software engineering experience, with 7+ years in senior engineering leadership roles (Director, Head of Engineering, VP).
+- Proven track record building and scaling lean engineering teams in complex environments.
+- Strong architectural expertise across cloud platforms, SaaS ecosystems, integrations, and data systems.
+- Experience in multi-entity, roll-up, or private-equity-backed environments strongly preferred.
+- Demonstrated success leading platform unification, system consolidation, or integration programs.
+- Excellent communication skills with ability to engage technical and non-technical stakeholders.
+- Comfortable operating in ambiguity and creating structure where none exists.
+- Pragmatic, outcome-oriented mindset with a bias toward execution and accountability.
+
+## What We Offer
+
+- Opportunity to build and lead a people organization from the platform level with significant autonomy
+- Competitive base salary with performance-based bonus structure
+- Comprehensive benefits package including health, dental, vision, 401(k) with match
+- Chance to make a transformative impact on a fast-growing organization
+
+## Location
+
+Remote / Hybrid (U.S.)"
+"Head of IT Operations",IT,"Remote (US)",Full-time,"## The Role
+
+We are seeking a disciplined, execution-oriented Head of IT Operations to own and operate Stakeholders VR's corporate IT environment and enforce a clear, durable control model across corporate, regional/brand, and vendor-owned systems.
+
+This role is accountable for the Mission Control IT stack and for defining the governance boundaries under which regional and local IT functions operate. It also holds compliance and escalation authority for independent short-term rental operating platforms that remain vendor-owned and vendor-supported.
+
+Success in this role is defined by clarity of ownership, strong controls, audit readiness, and a federated security posture – not by absorbing scope, operating local systems, or acting as a generalized support backstop.
+
+The Head of IT Operations partners closely with the CTO, VP of Engineering, Finance, Legal, and Operations leadership to ensure the company's technology environment is secure, compliant, cost-controlled, and fit for a PE-backed, multi-entity operating model.
+
+## Key Competencies
+
+### Mission Control IT Ownership
+
+Own and operate all corporate-controlled systems, including:
+
+- Identity, access management, and endpoint security
+- Corporate productivity and collaboration tooling
+- Core business systems (HRIS, ERP, CRM, CLM)
+- IT service management, help desk, and device lifecycle
+- Governance, risk, and compliance tooling
+
+### Governance of Regional / Brand IT
+
+Define and enforce mandatory corporate guardrails for locally funded and locally operated systems, including:
+
+- End-user devices and endpoint standards
+- Local networking and internet access
+- Non-STR local SaaS tooling
+- Administrative access and privilege management
+
+### STR Operating Platform Oversight
+
+Hold compliance ownership and advisory responsibility for vendor-owned STR platforms, including:
+
+- Property Management Systems (PMS)
+- Revenue management platforms
+- Home operations platforms
+- Guest and owner experience systems
+
+### Operational Discipline & Risk Management
+
+- Ensure vendor-supported platforms escalate through the CTO, not IT Operations.
+- Establish IT SLAs, operational metrics, and control frameworks aligned with audit and compliance expectations.
+- Reduce vendor, license, and tooling sprawl through disciplined rationalization.
+- Maintain clean, auditable identity, access, and endpoint posture across the organization.
+- Partner with Engineering and Data leadership to ensure secure, compliant system integration patterns.
+
+### Executive Partnership & Communication
+
+- Serve as a trusted operational partner to the CTO on IT governance, risk posture, and investment planning.
+- Clearly communicate ownership boundaries, escalation paths, and operating expectations to executive leadership and portfolio companies.
+- Influence behavior through clear standards, not informal dependency or heroics.
+
+## The Successful Applicant
+
+- 10+ years of experience in IT operations or enterprise IT leadership roles.
+- Proven experience running centralized IT in distributed or multi-entity organizations.
+- Strong background in identity management, endpoint security, SaaS administration, vendor management, and IT service operations.
+- Demonstrated ability to enforce standards and controls without owning local execution.
+- Experience operating in private-equity-backed, compliance-driven, or audit-sensitive environments.
+- Management and team-building experience with a bias toward operational clarity and accountability.
+- Comfortable operating within strict boundaries and maintaining them under pressure.
+- Experience in multi-brand or roll-up environments.
+- Familiarity with SOC 2, ISO-aligned controls, or similar compliance frameworks.
+- Track record of reducing operational ambiguity and technology sprawl.
+
+## What We Offer
+
+- Opportunity to build and lead a people organization from the platform level with significant autonomy
+- Competitive base salary with performance-based bonus structure
+- Comprehensive benefits package including health, dental, vision, 401(k) with match
+- Chance to make a transformative impact on a fast-growing organization
+
+## Location
+
+Remote / Hybrid (U.S.)"
+"Regional Revenue Manager",Revenue,"Remote (US)",Full-time,"## The Role
+
+We are seeking a strategic, analytical, and performance-driven Regional Revenue Manager to lead revenue optimization across Stakeholders VR's portfolio of markets and brands. This role is responsible for driving RevPAN, Occupancy, and ADR performance by combining data, technology, and market insight into disciplined pricing, distribution, and inventory strategies.
+
+The Regional Revenue Manager works directly with the Chief Revenue Officer and local Revenue Managers to ensure consistent adoption of best-in-class revenue practices across all markets while tailoring strategy to each market's demand patterns, asset mix, and seasonality.
+
+## Key Responsibilities
+
+### Strategic Growth Leadership
+
+- Partner with the Chief Revenue Officer to define and execute regional revenue strategies aligned with EBITDA and profitability goals
+- Identify revenue opportunities across markets based on demand patterns, seasonality, and bedroom mix
+- Ensure pricing, availability, and distribution strategies are data-driven and performance-oriented
+- Drive consistent adoption of best practices across all brands and markets
+- Active contribution to revenue performance in select markets
+- Strategic oversight of revenue execution in established markets
+
+### Pricing, Distribution and Inventory Optimization
+
+- Oversee dynamic pricing strategies across Airbnb, VRBO, Booking.com, Direct, and emerging channels
+- Ensure proper use and optimization of revenue tools (Wheelhouse, PriceLabs, Key Data, AirDNA, PMS integrations)
+- Optimize listing performance through rate strategy, minimum stays, gap night management, and calendar discipline
+- Guide markets on pacing analysis, compression strategy, and demand response
+- Ensure inventory health through availability management and block reduction
+
+### Data, Reporting and Market Intelligence
+
+- Analyze market-level data including RevPAN, ADR, Occupancy, Bedroom Mix, and Booking Window trends
+- Provide weekly and monthly performance reporting and insights to executive leadership
+- Identify underperforming segments and create corrective action plans
+- Utilize market data to inform forecasting, budgeting, and owner performance conversations
+- Develop standardized KPI dashboards and reporting consistency across brands
+
+### Team Leadership and Collaboration
+
+- Directly support and guide local Revenue Managers and Operations leaders
+- Establish clear revenue KPIs, expectations, and accountability measures
+- Coach markets on best practices, tool usage, and performance improvement
+- Collaborate closely with Marketing, Business Development, and Operations to align revenue strategy with growth and service execution
+- Participate in owner-facing strategy conversations where revenue education is required
+
+### Performance Improvement and Standardization
+
+- Establish and enforce revenue management playbooks across markets
+- Drive adoption of standard operating procedures for pricing, distribution, and inventory management
+- Lead training initiatives for local teams on revenue tools and strategy
+- Continuously identify opportunities for process improvement and technology leverage
+
+## The Successful Applicant
+
+- Bachelor's degree in Business, Finance, Hospitality, or related field
+- 5+ years of experience in revenue management, pricing strategy, or STR performance optimization
+- Strong understanding of vacation rental KPIs including RevPAN, ADR, Occupancy, and Bedroom Mix weighting
+- Hands-on experience with revenue tools such as Wheelhouse, PriceLabs, Key Data, AirDNA, or similar platforms
+- Data-driven mindset with the ability to translate analytics into action
+- Experience working across multiple markets or brands preferred
+- Excellent communication skills with the ability to educate and influence local teams
+- Ability to operate effectively in a remote, multi-market environment
+- Strong understanding of OTA distribution and direct booking strategy
+
+## What We Offer
+
+- Opportunity to build and lead a people organization from the platform level with significant autonomy
+- Competitive base salary with performance-based bonus structure
+- Comprehensive benefits package including health, dental, vision, 401(k) with match
+- Chance to make a transformative impact on a fast-growing organization
+
+## Location
+
+Remote / Hybrid
+
+## Travel Requirements
+
+This role requires approximately 25-35% travel to visit locations."
+"Accounts Payable Manager",Finance,"Remote",Full-time,"## The Role
+
+We are seeking an experienced and strategic Accounts Payable leader to lead the consolidated AP and Expense Management function across our multi-entity platform. This role will be instrumental in establishing and maintaining robust payables operations, standardizing processes across our portfolio companies, and providing exceptional client service to our third-party vendors and employees. The ideal candidate thrives in a complex, fast-paced environment and has proven experience implementing and maintaining payables operations in a multi-entity or roll-up environment.
+
+This position will require significant interaction with the entire organization. The ideal candidate is someone who brings instant credibility because of his or her accomplishments. He/she must be able to address technical and business questions and have the interpersonal skills to guide employees throughout the entire payables and expense management cycle.
+
+## Key Competencies
+
+- Oversee end-to-end invoice processing and expense management operations across all initial 20+ entities plus any subsequent acquisitions, ensuring accurate categorization and timeliness
+- Lead the selection, evaluation, and implementation of a consolidated AP platform, ensuring to address the needs of the entire organization
+- Lead the selection, evaluation, and implementation of a consolidated expense management platform (corporate credit cards + employee reimbursements), with particular focus on addressing the needs of our field teams
+- Manage vendor onboarding processes to securely obtain required information for tax compliance and reporting purposes
+- Develop and implement robust payment processing schedules for the organization, establishing clear expectations for our employees and third-party vendors
+- Ensure accurate coding of transactions for accounting purposes, including general ledger account, location, subsidiary, and department dimensions along with sufficient description information to provide clarity to users
+- Design and implement appropriate approval flows for both invoices and expense reports that align with the organizational structure and business-level controls
+- Oversee the administration of corporate credit cards including monthly spend limits, default coding, approval hierarchies, and spend-type limitations
+- Drive expense report compliance across the organization to ensure accuracy and timeliness of submissions and gathering of appropriate supporting documentation
+- Partner with accounting and finance leadership to support month-end close and streamline the general ledger reporting needs for all payables-related activities
+- Develop and maintain payables policies, procedures, and internal controls to ensure data integrity and compliance
+- Establish and maintain AP-related metrics and reports (i.e. KPI's, Aging, etc.)
+- Respond to inquiries with a high level of confidentiality, accuracy, and customer service
+- Support integration planning and execution for new acquisitions
+- Build, lead, and mentor a high-performing AP team potentially across multiple locations
+- Develop talent and create clear career paths for team members
+- Foster a culture of continuous improvement, accountability, and collaboration
+- Assist with internal and external audits and documentation requests
+
+## The Successful Applicant
+
+- 5+ years of progressive accounts payable experience with at least 2 years in a manager-level role or above
+- Strong understanding of AP best practices, internal controls, and accounting principles
+- Bachelor's degree in accounting, finance, business administration, or a related field (or equivalent experience)
+- Experience in a multi-entity, roll-up, or private equity-backed environment in the hospitality industry, a plus
+- Experience in a shared services or high-volume AP environment, a plus
+- Experience with NetSuite, a plus
+- High level of discretion and ability to handle sensitive and confidential information
+- Strong analytical, problem-solving, and organizational skills with exceptional attention to detail
+- Strong leadership and team management capabilities
+- Excellent communication skills with ability to present at company-wide meetings or forums
+- Ability to manage multiple deadlines in a fast-paced environment
+- Customer-service mindset when supporting employees and vendors
+
+## Location
+
+Remote"
+"Payroll Senior Manager",Finance,"Remote",Full-time,"## The Role
+
+We are seeking an experienced and strategic Payroll leader to lead the consolidated payroll function across our multi-entity platform. This role will be instrumental in establishing and maintaining robust payroll operations, standardizing processes across our portfolio companies, and providing exceptional client service to our employees across the company. The ideal candidate thrives in a complex, fast-paced environment and has proven experience implementing and maintaining payroll operations in a multi-entity or roll-up environment.
+
+This position will require significant interaction with the entire organization. The ideal candidate is someone who brings instant credibility because of his or her accomplishments. He/she must be able to address technical and business questions and have the interpersonal skills to guide employees throughout the entire payroll cycle.
+
+## Key Competencies
+
+- Oversee end-to-end payroll processing operations across all initial 20+ entities plus any subsequent acquisitions, ensuring accurate and timely payroll execution, including oversight of time-tracking
+- Lead the implementation of ADP and collaborate as part of the implementation of Workday including the transition of employees from legacy payroll and HRIS systems
+- Administer payroll systems and upgrades, including testing, configuration, and process documentation
+- Manage payroll operations in compliance with federal, state, and local tax laws, wage and hour regulations, and company policies
+- Partner with the company's HR function to ensure seamless integration and processing of all employee status changes
+- Oversee payroll tax filings, audits, and year-end activities (W-2s, 1099s, etc.), serving as the primary point of contact for auditors
+- Partner with accounting and finance leadership to streamline the general ledger reporting needs for all payroll-related activities
+- Develop and maintain payroll policies, procedures, and internal controls to ensure data integrity and compliance
+- Respond to employee payroll inquiries with a high level of confidentiality, accuracy, and customer service
+- Partner with FP&A to provide historical analysis and support forecasting and budgeting processes
+- Support integration planning and execution for new acquisitions
+- Build, lead, and mentor a high-performing payroll team potentially across multiple locations
+- Develop talent and create clear career paths for team members
+- Foster a culture of continuous improvement, accountability, and collaboration
+
+## The Successful Applicant
+
+- 10+ years of progressive payroll experience with at least 3 years in a manager-level role or above
+- Extensive proficiency with the ADP payroll platform, required
+- Extensive experience managing multiple pay groups and pay cycles, including full-time, part-time, and seasonal employees
+- Strong knowledge of federal, state, and local payroll tax laws, wage and hour regulations, and compliance requirements
+- Bachelor's degree in Accounting, Finance, Human Resources, Business Administration, or a related field (or equivalent experience)
+- Experience in a multi-entity, roll-up, or private equity-backed environment in the hospitality industry, a plus
+- Experience leading payroll system implementations, upgrades, or process automation initiatives
+- Experience with HRIS platforms, preferably Workday
+- Proven ability to reconcile payroll, taxes, and general ledger accounts accurately and on deadline
+- Knowledge of benefits administration, timekeeping systems, and payroll accounting
+- High level of discretion and ability to handle sensitive and confidential information
+- Strong analytical, problem-solving, and organizational skills with exceptional attention to detail
+- Strong leadership and team management capabilities
+- Excellent communication skills with ability to present at company-wide meetings or forums
+- Ability to manage multiple deadlines in a fast-paced environment
+- Customer-service mindset when supporting employees and stakeholders
+
+## Location
+
+Remote"
+"Director of Corporate Accounting",Finance,"Remote",Full-time,"## The Role
+
+We are seeking an experienced and strategic Director of Corporate Accounting to lead the corporate accounting function for the company. This role will be instrumental in establishing and maintaining robust accounting close procedures, standardizing recording and reconciliation processes, driving integration of key financial operations, and consolidating results across our portfolio companies. The ideal candidate thrives in a complex, fast-paced environment and has proven experience establishing excellent accounting operations in a multi-entity or roll-up environment.
+
+This position will require significant interaction with the entire organization. The ideal candidate is someone who has a strong work ethic and brings instant credibility because of his or her experience and accomplishments. He/she must be able to address technical and business questions and have the interpersonal skills to guide stakeholders throughout the entire accounting cycle.
+
+## Key Competencies
+
+- Drive the standardization and eventual consolidation of certain accounting functions and processes and the chart of accounts across all entities, ensuring consistent application of accounting policies and reconciliation procedures
+- Establish consolidation procedures for non-integrated companies to ensure accurate financial reporting in preparation of integration
+- Support the financial reporting function including reporting to internal and external stakeholders and debt covenant compliance calculations
+- Partner with valuation experts and external auditors to account for acquisition activity including purchase accounting entries, opening balance sheet calculations, valuations of intangibles, and post-close adjustments
+- Build, lead, and mentor a high-performing corporate accounting team potentially across multiple locations
+- Train employees on NetSuite functionality and general ledger recording and reconciliation procedures
+- Lead a general ledger review process to ensure accurate coding of transactions, including general ledger account, location, subsidiary, and department dimensions along with sufficient description information to provide clarity to users
+- Drive the automation of routine accounting processing utilizing AI or existing functionalities within NetSuite
+- Perform and document technical accounting research around critical accounting policies and complex transactions
+- Serve as the primary point of contact for internal and external audits and tax reporting requirements and documentation requests
+- Develop and maintain accounting policies, procedures, and scalable internal controls to ensure data integrity and compliance
+- Support integration planning and execution for new acquisitions
+- Develop talent and create clear career paths for team members
+- Foster a culture of continuous improvement, accountability, and collaboration without physical proximity
+
+## The Successful Applicant
+
+- 8+ years of progressive accounting experience with at least 3 years in a manager-level role or above
+- Strong understanding of accounting close best practices, internal controls, and accounting principles
+- Bachelor's degree in accounting (or equivalent experience)
+- Strong proficiency with NetSuite, required
+- CPA license (or equivalent), required
+- Property management accounting experience, strongly preferred
+- Experience in a multi-entity, roll-up, or private equity-backed environment, a plus
+- Strong analytical, problem-solving, and organizational skills with exceptional attention to detail
+- Exceptional leadership and team management capabilities
+- Excellent communication skills with ability to present at company-wide meetings or forums
+- Ability to manage multiple deadlines in a fast-paced environment
+
+## Compensation
+
+We offer a very competitive compensation package, consisting of salary, bonus, 401(k) with company match, and benefits to all team members, flexible work arrangements, and professional development opportunities.
+
+## Location
+
+Remote"

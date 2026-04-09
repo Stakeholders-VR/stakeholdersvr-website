@@ -9,6 +9,8 @@ import Link from "next/link"
 import MuxPlayer from "@mux/mux-player-react"
 import { useState, useEffect, useRef } from "react"
 import ContactButton from "./app/_components/contact-button"
+import SiteHeader from "./components/site-header"
+import SiteFooter from "./components/site-footer"
 
 
 const LinkedinIcon = ({ className }: { className?: string }) => (
@@ -65,52 +67,7 @@ function VideoCarousel() {
 export default function Component() {
   return (
     <div className="flex flex-col min-h-screen bg-white">
-      {/* Header */}
-      <header className="sticky top-0 z-50 w-full border-b border-slate-700 bg-[#10172A] backdrop-blur supports-[backdrop-filter]:bg-slate-900/90">
-        <div className="mx-auto container flex h-20 items-center justify-between px-4 md:px-6">
-          <div className="flex items-center space-x-2">
-            <Image
-              src="/images/stakeholders-logo-white.png"
-              alt="Stakeholders Vacation Rentals"
-              width={200}
-              height={60}
-              className="h-14 w-auto"
-              priority
-            />
-          </div>
-          <nav
-            className="hidden md:flex items-center space-x-6 text-base font-medium"
-            style={{ fontFamily: "var(--font-ibm-plex-sans)" }}
-          >
-            <Link href="#why-join" className="text-gray-300 hover:text-amber-400 transition-colors">
-              Why Join
-            </Link>
-            <Link href="#legacy" className="text-gray-300 hover:text-amber-400 transition-colors">
-              Legacy
-            </Link>
-            <Link href="#services" className="text-gray-300 hover:text-amber-400 transition-colors">
-              Services
-            </Link>
-            <Link href="#leadership" className="text-gray-300 hover:text-amber-400 transition-colors">
-              Leadership
-            </Link>
-            <a
-              href="https://careers.stakeholdersvr.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-300 hover:text-amber-400 transition-colors"
-            >
-              Careers
-            </a>
-            <Link href="#contact" className="text-gray-300 hover:text-amber-400 transition-colors">
-              Contact
-            </Link>
-          </nav>
-          <Button asChild className="bg-amber-500 hover:bg-amber-600 text-slate-900">
-            <Link href="#contact">Contact Us</Link>
-          </Button>
-        </div>
-      </header>
+      <SiteHeader />
 
       <main className=" w-full">
         {/* Hero Section */}
@@ -503,82 +460,76 @@ export default function Component() {
                         </div>
                         <span className="font-italic text-gray-900 font-bolder">Co-Founder</span>
                       </div>
-                    </div>
 
-                    <div className="max-w-3xl mx-auto mb-8">
-                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <div className="flex flex-col items-center">
-                          <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
-                            <Image
-                              src="/images/jesse.png"
-                              alt="Jesse Hull Linkedin Page"
-                              width={160}
-                              height={160}
-                              className="w-full h-full object-cover object-top"
-                            />
-                          </div>
-                          <div className="flex items-center space-x-2">
-                            <h3 className="text-lg font-semibold text-gray-900">Jesse Hull</h3><br></br>
-                            <Link
-                              href="https://www.linkedin.com/in/jessefhull/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
-                            </Link>
-                           
-                          </div>  <span className="font-italic text-gray-900 font-bolder">CTO</span>
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
+                            src="/images/jesse.png"
+                            alt="Jesse Hull Linkedin Page"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover object-top"
+                          />
                         </div>
-
-                        <div className="flex flex-col items-center">
-                          <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
-                            <Image
-                              src="/images/ben.jpg"
-                              alt="Ben Lanson Linkedin Page"
-                              width={160}
-                              height={160}
-                              className="w-full h-full object-cover"
-                            />
-                          </div>
-                          <div className="flex items-center space-x-2">
-                            <h3 className="text-lg font-semibold text-gray-900">Ben Lanson</h3>
-                            <Link
-                              href="https://www.linkedin.com/in/benlanson/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
-                            </Link>
-                          </div>
-                          <span className="font-italic text-gray-900 font-bolder">COO</span>
-                        </div>
-
-                        <div className="flex flex-col items-center">
-                          <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
-                            <Image
-                              src="/images/elizabeth.jpg"
-                              alt="Elizabeth Lott Linkedin Page"
-                              width={160}
-                              height={160}
-                              className="w-full h-full object-cover"
-                            />
-                          </div>
-                          <div className="flex items-center space-x-2">
-                            <h3 className="text-lg font-semibold text-gray-900">Elizabeth Lott</h3>
-                            <Link
-                              href="https://www.linkedin.com/in/elizabethlott/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
-                            </Link>
-                          </div>
-                          <span className="font-italic text-gray-900 font-bolder">SVP, Business Operations & Strategy</span>
-                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Jesse Hull</h3><br></br>
+                          <Link
+                            href="https://www.linkedin.com/in/jessefhull/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                         
+                        </div>  <span className="font-italic text-gray-900 font-bolder">CTO</span>
                       </div>
-                    </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
+                            src="/images/ben.jpg"
+                            alt="Ben Lanson Linkedin Page"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Ben Lanson</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/benlanson/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div>
+                        <span className="font-italic text-gray-900 font-bolder">COO</span>
+                      </div>
+
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
+                            src="/images/elizabeth.jpg"
+                            alt="Elizabeth Lott Linkedin Page"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Elizabeth Lott</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/elizabethlott/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div>
+                        <span className="font-italic text-gray-900 font-bolder">SVP, Business Operations & Strategy</span>
+                      </div>
+
                       <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
@@ -651,19 +602,40 @@ export default function Component() {
                       <div className="flex flex-col items-center">
                         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
                           <Image
-                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743986849056-0yE6xybFlVs2yxDhe2TUbY9yHdjECH.jpeg"
-                            alt="Travis Wilburn Linkedin Page"
+                            src="/images/tanaz.png"
+                            alt="Tanaz Mody"
+                            width={160}
+                            height={160}
+                            className="w-full h-full object-cover object-[center_30%]"
+                          />
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <h3 className="text-lg font-semibold text-gray-900">Tanaz Mody</h3>
+                          <Link
+                            href="https://www.linkedin.com/in/tanazmody/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
+                          </Link>
+                        </div>
+                        <span className="font-italic text-gray-900 font-bolder">Chief People Officer</span>
+                      </div>
+
+                      <div className="flex flex-col items-center">
+                        <div className="w-40 h-40 rounded-full overflow-hidden mb-4 shadow-lg">
+                          <Image
+                            src="/images/matt.png"
+                            alt="Matt Spangler"
                             width={160}
                             height={160}
                             className="w-full h-full object-cover"
                           />
                         </div>
                         <div className="flex items-center space-x-2">
-                          <h3 className="text-lg font-semibold text-gray-900">Travis Wilburn</h3>
-                          <Link href="https://www.linkedin.com/in/travis-wilburn-03057410/" target="_blank" rel="noopener noreferrer">
-                            <LinkedinIcon className="h-5 w-5 text-black hover:text-gray-600 transition-colors" />
-                          </Link>
-                        </div> <span className="font-italic text-gray-900 font-bolder">Advisor</span>
+                          <h3 className="text-lg font-semibold text-gray-900">Matt Spangler</h3>
+                        </div>
+                        <span className="font-italic text-gray-900 font-bolder">Chief Marketing Officer</span>
                       </div>
                     </div>
 
@@ -762,25 +734,7 @@ export default function Component() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8">
-        <div className="mx-auto container px-4 md:px-6">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <Image
-                src="/images/footer-logo.png"
-                alt="Stakeholders VR"
-                width={250}
-                height={75}
-                className="h-16 w-auto"
-              />
-            </div>
-            <div className="text-sm text-gray-400 mb-4 md:mb-0">
-              © {new Date().getFullYear()} Stakeholders Vacation Rentals. All rights reserved.
-            </div>
-          </div>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   )
 }
